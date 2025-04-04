@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App - Tuấn Xuân</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar trái -->
+        <div class="sidebar">
+            <div class="header">
+                <h2>Chat</h2>
+            </div>
+            <div class="contact-list">
+                <div class="contact active">
+                    <img src="https://via.placeholder.com/40" alt="avatar">
+                    <div class="contact-info">
+                        <p class="name">Nguyễn Văn A</p>
+                        <p class="last-msg">Chào bạn!</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <img src="https://via.placeholder.com/40" alt="avatar">
+                    <div class="contact-info">
+                        <p class="name">Trần Thị B</p>
+                        <p class="last-msg">Hẹn gặp nhé</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Khu vực chat chính -->
+        <div class="chat-area">
+            <div class="chat-header">
+                <h3>Nguyễn Văn A</h3>
+            </div>
+            <div class="chat-messages">
+                <div class="message received">
+                    <p>Chào bạn! Hôm nay thế nào?</p>
+                    <span>10:30</span>
+                </div>
+                <div class="message sent">
+                    <p>Chào bạn! Mình ổn, còn bạn?</p>
+                    <span>10:31</span>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Nhập tin nhắn...">
+                <button>Gửi</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
